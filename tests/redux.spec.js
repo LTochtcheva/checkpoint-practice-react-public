@@ -15,7 +15,7 @@ function getRandomAnimal (animals) {
 describe('Action Creators', () => {
 
 	  describe('setMammal', () => {
-        xit('returns properly formatted action', () => {
+        it('returns properly formatted action', () => {
             const testMammal = getRandomAnimal(mammals);
             expect(setMammal(testMammal)).to.be.deep.equal({
                 type: 'SET_MAMMAL',
@@ -25,7 +25,7 @@ describe('Action Creators', () => {
     });
 
     describe('setBird', () => {
-        xit('returns properly formatted action', () => {
+        it('returns properly formatted action', () => {
             const testBird = getRandomAnimal(birds);
             expect(setBird(testBird)).to.be.deep.equal({
                 type: 'SET_BIRD',
@@ -35,7 +35,7 @@ describe('Action Creators', () => {
     });
 
     describe('setFish', () => {
-        xit('returns properly formatted action', () => {
+        it('returns properly formatted action', () => {
             const testFish = getRandomAnimal(fish);
             expect(setFish(testFish)).to.be.deep.equal({
                 type: 'SET_FISH',
