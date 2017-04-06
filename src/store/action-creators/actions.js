@@ -18,7 +18,7 @@ export const setFish = function(animal) {
     type: 'SET_FISH',
     animal: animal
   }
-};;
+};
 
 
 

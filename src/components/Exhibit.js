@@ -14,11 +14,9 @@ export default class Exhibit extends Component {
   }
 
   setAnimal(animal) {
-    console.log('Animal submitted', animal)
     this.setState({selectedAnimal: animal})
   }
   render () {
-   // console.log('Props in Exibit ', this.props);
     let animal = this.state.selectedAnimal;
   	return (
 	    <div className="exhibit">
